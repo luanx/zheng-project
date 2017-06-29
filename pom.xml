@@ -7,6 +7,15 @@
     <groupId>com.wantdo</groupId>
     <artifactId>zheng-project</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>zheng-project</name>
+    <url>https://wantdo.com/zheng-project</url>
+
+    <modules>
+        <module>zheng-common</module>
+    </modules>
+
 
 
 </project>
