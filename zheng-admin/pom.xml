@@ -5,18 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wantdo</groupId>
-    <artifactId>zheng-project</artifactId>
+    <artifactId>zheng-admin</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
-    <name>zheng-project</name>
+    <name>zheng-admin</name>
     <url>https://wantdo.com/zheng-project</url>
-
-    <modules>
-        <module>zheng-common</module>
-        <module>zheng-admin</module>
-    </modules>
-
 
 
 </project>
