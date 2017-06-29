@@ -15,6 +15,7 @@
     <modules>
         <module>zheng-common</module>
         <module>zheng-admin</module>
+        <module>zheng-cms</module>
     </modules>
 
 

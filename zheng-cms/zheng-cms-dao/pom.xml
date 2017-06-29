@@ -4,12 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wantdo</groupId>
-    <artifactId>zheng-admin</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <artifactId>zheng-cms</artifactId>
+        <groupId>com.wantdo</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>zheng-cms-dao</artifactId>
     <packaging>jar</packaging>
 
-    <name>zheng-admin</name>
+    <name>zheng-cms-web</name>
     <url>https://wantdo.com/zheng-project</url>
 
 </project>
