@@ -18,7 +18,9 @@
     <dependencies>
         <dependency>
             <groupId>com.wantdo</groupId>
-            <artifactId>zheng-cms-common</artifactId>
+            <artifactId>zheng-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
 
