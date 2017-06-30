@@ -7,11 +7,6 @@
     <groupId>com.wantdo</groupId>
     <artifactId>zheng-cms</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>zheng-cms-common</module>
-        <module>zheng-cms-dao</module>
-        <module>zheng-cms-web</module>
-    </modules>
     <packaging>pom</packaging>
 
     <name>zheng-cms</name>
@@ -20,11 +15,18 @@
     <modules>
         <module>zheng-cms-common</module>
         <module>zheng-cms-dao</module>
+        <module>zheng-cms-rpc-api</module>
         <module>zheng-cms-web</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.wantdo</groupId>
+                <artifactId>zheng-cms-common</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>jar</type>
+            </dependency>
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>

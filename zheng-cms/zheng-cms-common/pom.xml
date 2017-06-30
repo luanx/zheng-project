@@ -12,7 +12,14 @@
     <artifactId>zheng-cms-common</artifactId>
     <packaging>jar</packaging>
 
-    <name>zheng-project</name>
+    <name>zheng-cms-common</name>
     <url>https://wantdo.com/zheng-project</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.wantdo</groupId>
+            <artifactId>zheng-cms-common</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

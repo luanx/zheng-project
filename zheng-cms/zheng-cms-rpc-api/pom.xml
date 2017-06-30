@@ -9,17 +9,18 @@
         <groupId>com.wantdo</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
-    <artifactId>zheng-cms-dao</artifactId>
+    <artifactId>zheng-cms-rpc-api</artifactId>
     <packaging>jar</packaging>
 
-    <name>zheng-cms-dao</name>
+    <name>zheng-cms-rpc-api</name>
     <url>https://wantdo.com/zheng-project</url>
 
     <dependencies>
         <dependency>
             <groupId>com.wantdo</groupId>
-            <artifactId>zheng-cms-common</artifactId>
+            <artifactId>zheng-cms-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
 
